@@ -32,6 +32,9 @@ def cleaned_amazon_data(file_path, output_path):
 
     df['ship_postal_code'] = df['ship_postal_code'].fillna(0).astype(str).str.split('.').str[0].str.zfill(6)
 
+    # use normalized column names (lowercase, underscores) applied earlier
+    df['sku'] = df['category'] + "-" + df['size']
+
     print(def_metrics_summary(df))
 
     df.to_csv(output_path, index=False)
