@@ -50,3 +50,22 @@ Our geographic profiling highlights our primary revenue hubs alongside potential
 * **Total Orders Ranking:** #2 order volume and revenue.
 * **Cancellation Rate:** 12.96%
 * *Observation:* Karnataka represents an incredibly healthy market. It balances high order volumes with the **lowest cancellation rate** among our top regions, showcasing superior operational delivery stability.
+
+
+---
+
+## 📅 Advanced Trend & Product Performance
+
+### 1. Month-over-Month (MoM) Growth Trends
+* **The Q2 Launch Spike:** Sales experienced a massive structural surge in **April 2022**, rocketing to **₹2,60,38,781.00** in net revenue compared to the initial baseline tracking in March. 
+* **Stabilization Phase:** Following the April peak, sales entered a normalization period in **May (₹2.38 Crore, -8.42%)** and **June (₹2.13 Crore, -10.61%)**.
+
+### 2. Core Product Category Dominance
+* **The Hero Category:** **T-Shirts** are the primary business driver for the storefront, generating **₹3,90,74,570.36** in gross revenue.
+* **Revenue Share:** T-shirts alone command **49.98%** (nearly half) of the platform's total cumulative financial volume. This reveals a massive structural reliance on a single product type for revenue stability.
+
+An audit of fulfillment channels (Amazon vs. Merchant Self-Ship) and delivery statuses reveals where operational bottlenecks occur:
+
+* **High Shipment Stability:** Both Amazon (74k+ orders) and Merchant (30k+ orders) maintain a **0.00% operational loss rate** once a package is officially logged as *Shipped*.
+* **The "Unshipped" Amazon Risk:** Orders handled via Amazon that remain in an *Unshipped* status carry a **91.45% cancellation/failure rate**, indicating that warehouse processing delays directly trigger lost orders. 
+* **Merchant Pipeline Lag:** A specific cluster of 6,600 Merchant-fulfilled orders marked *On the Way* accounts for a **99.95% failure rate**, highlighting a data logging lag where cancelled self-shipped orders fail to update their courier tracking status correctly.
