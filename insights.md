@@ -69,3 +69,5 @@ An audit of fulfillment channels (Amazon vs. Merchant Self-Ship) and delivery st
 * **High Shipment Stability:** Both Amazon (74k+ orders) and Merchant (30k+ orders) maintain a **0.00% operational loss rate** once a package is officially logged as *Shipped*.
 * **The "Unshipped" Amazon Risk:** Orders handled via Amazon that remain in an *Unshipped* status carry a **91.45% cancellation/failure rate**, indicating that warehouse processing delays directly trigger lost orders. 
 * **Merchant Pipeline Lag:** A specific cluster of 6,600 Merchant-fulfilled orders marked *On the Way* accounts for a **99.95% failure rate**, highlighting a data logging lag where cancelled self-shipped orders fail to update their courier tracking status correctly.
+
+Tableau Dashboard - https://public.tableau.com/shared/4MK6GSGD2?:display_count=n&:origin=viz_share_link
